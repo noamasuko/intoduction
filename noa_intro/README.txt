@@ -1,155 +1,154 @@
-Big Picture by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>noa_masuko</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
+		<!-- Header -->
+			<header id="header">
+				<h1>Noa's room</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What I Do</a></li>
+						<li><a href="#two">Who I Am</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-This is Big Picture, a simple, single page responsive site template by HTML5 UP.
-
-So I've been on a single page kick as of late, partly because I'm lazy, but
-mostly because they kick ass for experimentation. In this case, Big Picture
-makes heavy use of my (tentatively named and soon to be released) "scrollgress"
-and "scrollwatch" jQuery plugins to pull off some interesting effects as you
-scroll around the page. In addition to said interesting effects, Big Picture
-also includes a nice lightbox-style gallery, styling for basic page elements,
-and thoroughly commented code for your editing pleasure (with instructions!
--- see below).
-
-Many thanks to my good friends Felicia Simion (ineedchemicalx.deviantart.com)
-and Michael Domaradzki (md.photomerchant.net) for allowing me to use their amazing
-photos in Big Picture's demo*.
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT
-download and/or use any of Felicia's or Michael's work without their explicit
-permission!)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Instructions:
-
-	Overview:
-
-		Being a single pager, Big Picture should be way simpler to work with than
-		some of the heavier stuff I've released in the past. In fact, aside from
-		a main page <header> and <footer>, it's pretty much just a stack of "main"
-		<section> elements that follow the same basic pattern:
-
-			<section id="foobar" class="main">
-				<div class="content container">
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
 					<header>
-						<h2>Foobar</h2>
+						<h2>Welcome</h2>
 					</header>
-					...
+					<p>Welcome to <strong>Noa's room</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
+					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
 				</div>
 			</section>
 
-		The section can then be assigned a style class to determine its basic
-		look (and, in some cases, its behavior):
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
 
-			style1
-				Centered content with an oversized <h2>. Works best when
-				paired with a background image or color.
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
 
-			style2 left
-				Content in a box, anchored to the left side of the window. Works
-				best when paired with a background image or color. If you have
-				"useSectionTransitions" turned on in your settings, the box will
-				slide into view from the left.
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
+						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+					</header>
 
-			style2 right
-				Content in a box, anchored to the right side of the window. Works
-				best when paired with a background image or color. If you have
-				"useSectionTransitions" turned on in your settings, the box will
-				slide into view from the right.
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+							</article>
+						</div>
 
-			style3 primary
-				Used for generic content. Set against the primary background
-				color (default is white).
+				</div>
+			</section>
 
-			style3 secondary
-				Used for generic content. Set against the secondary background
-				color (default is a light gray).
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
 
-		Oh, and there are a few (well, two) optional modifier classes you can
-		tack on for additional effects:
+		<!-- Footer -->
+			<footer id="footer">
 
-			dark
-				Flips the content's color scheme so it shows up better
-				against darker background images and colors.
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
 
-			fullscreen
-				Makes the section fill the entire window (only if "useFullScreen"
-				is enabled in your settings).
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
 
+			</footer>
 
-	Lightbox Gallery:
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
- 		The actual gallery function is powered by my Poptrox plugin. For info on
- 		how that works, go here: github.com/ajlkn/jquery.poptrox
-
-		Each image (the '...' bit in the above examples) should look like this:
-
-			<article class="from-(direction)">
-				<a href="path/to/fullsize.jpg" class="image fit">
-					<img src="path/to/thumbnail.jpg" title="This is the image caption." alt="" />
-				</a>
-			</article>
-
-		The "from-(direction)" class indicates the direction from which the image should
-		slide into view, and can be any of the following:
-
-			from-left
-			from-right
-			from-bottom
-			from-left
-
-		You can also just remove the "from-(direction)" class if you don't want that particular
-		image to slide into view (in which case it'll simply fade in).
-
-
-	Contact Form:
-
-		To get this working, place a script on your server to receive the form data, then
-		point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
-		More on how it all works here: 1stwebdesigner.com/tutorials/custom-php-contact-forms
-
-
-    Icons:
-
-     	Powered by Font Awesome. Go here for a full listing of all the icons you can use:
-     	fontawesome.io
-
-
-	Other Stuff:
-
-		- If you don't like the way images are tinted, either change "images/overlay.png"
-		  to something else, or remove all references to it from css/style.css.
-
-
-Credits:
-
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-			"The Swallow Song"
-			"Mind is a clear stage"
-			"The Anonymous Red"
-			"The sparkling shell"
-			"Carry on"
-
-		Michael Domaradzki (md.photomerchant.net)
-			"Vine Country"
-			"Airchitecture II"
-			"Bent IX"
-			"Air Lounge"
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Poptrox (github.com/ajlkn/jquery.poptrox)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+	</body>
+</html>
